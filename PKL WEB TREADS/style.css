@@ -1,0 +1,213 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #101010;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+/* BAGIAN KIRI */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-item {
+            padding: 12px 15px;
+            margin-bottom: 5px;
+            border-radius: 8px;
+            color: #777;
+            cursor: pointer;
+        }
+
+        .nav-item:hover {
+            background-color: #222;
+        }
+
+
+
+        .sub-text {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+        
+        /* POSTINGAN TENGAH */
+        .main-content {
+            position: relative;
+            margin-left: 250px;
+            width: 600px;
+            min-height: 100vh;
+            border-left: 1px solid #222;
+            border-right: 1px solid #222;
+            background-color: #101010;
+        }
+
+
+        .header {
+            top: 0;
+            background-color: rgba(5, 5, 5, 0.9);
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 1px solid #222;
+        }
+        
+        .header span {
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .create-post {
+            padding: 15px 20px;
+            border: 1px solid #333;
+            border-radius: 20px 20px 0 0; 
+            border-bottom: 1px solid #222;
+            background-color: #151515; 
+        }
+
+        .create-post .post-left {
+            float: left;
+            width: 70px;
+        }
+
+        .create-post .input-area {
+            float: left;
+            width: 380px; 
+            margin-top: 10px; 
+        }
+
+        .create-post input {
+            width: 100%;
+            background-color: transparent; 
+            border: none;
+            font-size: 15px;
+            outline: none; 
+             color: #777;
+        }
+
+        .create-post .btn-submit {
+            float: right; 
+            margin-top: 2px; 
+            background-color: transparent; 
+            color: #ffffff;
+            border: 1px solid #555;
+            border-radius: 10px;
+            padding: 8px 18px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+    /* layout postingan */
+        .post {
+            padding: 15px 20px;
+            border-bottom: 1px solid #222;
+        }
+
+        .post-left {
+            float: left;
+            width: 70px;
+        }
+
+        .avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #444;
+            display: block;
+        }
+
+        .post-right {
+            float: left;
+            width: 470px;
+        }
+
+        .post-header {
+            margin-bottom: 5px;
+        }
+
+        .username {
+            float: left;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .time {
+            float: left;
+            color: #777;
+            font-size: 14px;
+            margin-left: 8px;
+        }
+
+        .options {
+            float: right;
+            color: #777;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .post-content {
+            font-size: 15px;
+            line-height: 1.5;
+            margin-top: 5px;
+            margin-bottom: 12px;
+        }
+
+        .post-image {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #333;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+    /* DIBAWAH POSTINGAN */
+        .post-actions {
+            margin-top: 10px;
+        }
+
+        .action-icon {
+            float: left;
+            margin-right: 20px;
+            color: #777;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .action-icon span {
+            margin-left: 5px;
+        }
+
+  
